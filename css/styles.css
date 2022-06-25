@@ -1794,3 +1794,7 @@ a {
     margin-bottom: 8px;
     text-align: center
 }
+
+.mo-overflow-x {
+    overflow-x: auto;
+}
