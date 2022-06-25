@@ -1798,3 +1798,11 @@ a {
 .mo-overflow-x {
     overflow-x: auto;
 }
+
+.mo-mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mo-mt-0 {
+    margin-top: 0 !important;
+}
