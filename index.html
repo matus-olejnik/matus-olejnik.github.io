@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <style>
         html, body, h1, h2, h3, h4, h5, h6 {
             font-family: "Roboto", sans-serif
@@ -24,7 +25,7 @@
         <!-- Left Column -->
         <div class="w3-third">
 
-            <div class="mo-lighter-blue mo-text-white w3-card-4">
+            <div class="mo-lighter-blue mo-text-white w3-card-4" data-aos="fade-right">
                 <div class="w3-display-container">
                     <img src="images/logo.jpg" style="width:100%" alt="Avatar">
                     <div class="w3-display-bottomleft w3-container w3-text-white">
@@ -95,7 +96,8 @@
         <!-- Right Column -->
         <div class="w3-twothird">
 
-            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom">
+            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom" data-aos="fade-left"
+                 data-aos-delay="300">
                 <h2 class="mo-text-white w3-padding-16"><i
                         class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge mo-text-green"></i>Pracovné skúsenosti
                 </h2>
@@ -113,7 +115,8 @@
                 </div>
             </div>
 
-            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom">
+            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom" data-aos="fade-left"
+                 data-aos-delay="1000">
                 <h2 class="mo-text-white w3-padding-16"><i
                         class="fa fa-lightbulb-o fa-fw w3-margin-right w3-xxlarge mo-text-green"></i>Projekty</h2>
                 <div class="w3-container">
@@ -133,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom">
+            <div class="w3-container w3-card mo-lighter-blue w3-margin-bottom" data-aos="fade-left">
                 <h2 class="mo-text-white w3-padding-16"><i
                         class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge mo-text-green"></i>Vzdelanie</h2>
                 <div class="w3-container">
@@ -164,7 +167,7 @@
     <!-- End Page Container -->
 </div>
 
-<footer class="w3-container mo-dark-blue mo-text-white w3-center w3-margin-top">
+<footer class="w3-container mo-dark-blue mo-text-white w3-center w3-margin-top" data-aos="zoom-in">
     <p>Matúš Olejník</p>
     <a class="w3-xxlarge w3-padding-small" href="https://github.com/matus-olejnik" target="_blank"><i
             class="fa fa-github w3-hover-opacity"></i></a>
@@ -182,6 +185,13 @@
         <a href="https://github.com/2016rshah/githubchart-api" target="_blank">Github Chart API</a>
     </p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease-in-sine',
+        duration: 1000
+    });
+</script>
 
 </body>
 </html>
