@@ -34,7 +34,8 @@
                 </div>
                 <div class="w3-container">
                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large mo-text-green"></i>Java vývojár</p>
-                    <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-large mo-text-green"></i>3.8.1994</p>
+                    <p id="age"><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-large mo-text-green"></i>3.8.1994
+                    </p>
                     <p><i class="fa fa-home fa-fw w3-margin-right w3-large mo-text-green"></i>Gbely, Slovakia</p>
                     <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large mo-text-green"></i><a
                             href="mailto:matus.olejnik@gmail.com">matus.olejnik@gmail.com</a>
@@ -191,6 +192,10 @@
         easing: 'ease-in-sine',
         duration: 1000
     });
+</script>
+<script>
+    //this is enough
+    document.getElementById('age').lastChild.data = new Date().getFullYear() - 1994 + ' rokov';
 </script>
 
 </body>
