@@ -1758,6 +1758,11 @@ a {
     background-color: #dd0031 !important
 }
 
+.mo-blue, .mo-hover-blue:hover {
+    color: #fff !important;
+    background-color: #0c05f6 !important
+}
+
 .mo-dark-orange, .mo-hover-dark-orange:hover {
     color: #fff !important;
     background-color: #fb542b !important
